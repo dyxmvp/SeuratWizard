@@ -7,5 +7,5 @@ SeuratWizard <- function(ip=NULL,port=NULL){
     port = 1234
 
   appDir <- system.file('shiny', package = "SeuratWizard")
-  shiny::runApp(appDir,host = getOption('shiny.host', ip),port = port,launch.browser = FALSE)
+  shiny::runApp(appDir,host = getOption('shiny.host', ip),port = port,launch.browser = TRUE)
 }
