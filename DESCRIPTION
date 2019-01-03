@@ -16,5 +16,4 @@ Imports:
 	shiny (>= 1.0.5),
 	Seurat (== 2.3.4),
 	dplyr,
-	Matrix,
-	V8
+	Matrix
