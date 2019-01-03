@@ -17,5 +17,4 @@ Imports:
 	Seurat (== 2.3.4),
 	dplyr,
 	Matrix,
-	V8,
-	#sodium
+	V8
